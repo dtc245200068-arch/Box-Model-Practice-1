@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Box Model 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Box Model 1</title>
 
-    <style>
-        div {
-            margin: 25px;
-            padding: 35px;
-            width: 200px;
-            background-color: lightseagreen;
-            border: 20px dashed indianred;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div>
-        Content demo box<br/>
+    <div class="card">
+        <p>
+            Thẻ 1 sử dụng box-sizing: content-box.
+        </p>
+    </div>
+
+    <div class="card">
+        <p>
+            Thẻ 2 sử dụng box-sizing: border-box.
+        </p>
+    </div>
+
+    <div class="card">
+        <p>
+            Thẻ 3 sử dụng box-sizing: border-box.
+        </p>
     </div>
 
 </body>
